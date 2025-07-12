@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #181818;
+  font-weight: 400;
+}
+
+body {
+  background-color: #9ef20e;
+  display: flex;
+  justify-content: center;
+}
+
+.lines{
+ width: 80%; 
+}
+
+.center{background-color: #f7ff08;
+width: 80%;
+padding: 10%;
+}
+
+.photo_info{
+display: flex;
+align-items: center;
+}
+
+.photo{
+    
+}
+
