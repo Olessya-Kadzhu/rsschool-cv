@@ -24,9 +24,10 @@ padding: 10%;
 .photo_info{
 display: flex;
 align-items: center;
+justify-content: center;
 }
 
-.photo{
-    
+img{
+border-radius: 12%;
 }
 
