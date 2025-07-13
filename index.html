@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV#3. HTML, CSS & Git Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lines">
+<div class="center">
+    <header>
+        <h1>CV (сurriculum vitae)</h1>
+    </header>
+    <main>
+    <div class="photo_info">
+    <div class="photo"> <img src="./Photo_Olessya.jpg" alt="Photo"></div>
+    <div class="info"><ul>
+    <li><h2>Name:</h2><h3>Olesya Fedchenko</h3> </li>
+    <li><h2>Age:</h2><h3>28</h3></li>
+    <li><h2>Contacts for communication:</h2></li>
+    <li><h3>Discord:</h3><h4>olessya_42 Olessya (@Olessya-Kadzhu)</h4></li>
+    <li><h3>GitHub:</h3><h4>Olessya-Kadzhu</h4></li>
+</ul>
+</div>
+</div>
+<div class="About"><h2>About me:</h2><h3>I started to take an interest in FrontEnd development last year. I like to learn how a website works and see how you create the functionality of the website yourself. It's both mathematics and art. I took the JustCode course from 12.05.2023 to 06.25.2024. There I studied HTML, CSS, basic and advanced JavaScript, React. I am studying Veu3 on my own.</h3></div>
+<div class="Skills"><h2>Skills:</h2><h3>HTML, CSS, basic JavaScript, React and Veu3.</h3></div>
+<div class="Code"><h2>Code example:</h2> <pre><code> const InetShopProducts = [ // ID и создание нового элемента массива
+    {id: 1, name: "Graphics tablet",brand: "Drawing numbers", price: "1500$", quantity: "111150000"},
+    {id: 2,name: "Speakers", brand: "Qut loud & co", price: "500&", quantity: "550000"},
+    {id: 3,name: "Biomechanical hand", brand: "Nova Terminator", price: "1500&", quantity: "11150000"},
+    {id: 4,name: "Android", brand: "Metal Face corporation", price: "25500&", quantity: "1500000"},
+    ];
+    let NextID = InetShopProducts.length + 1;
+    const GenerateID = () => {
+        return NextID++;
+    };
+    const NewProduct = {
+        id: GenerateID(),
+        name: prompt("Enter the new product name:"),
+        brand: prompt("Enter the new product brand:"),
+        price: prompt("Enter the new product price:"),
+        quantity: prompt("Enter the new product quantity:"),
+    };
+    InetShopProducts.push(NewProduct);
+    console.log(InetShopProducts);
+    </code></pre>
+</div>
+<div class="Work"><h2>Work experience:</h2><h3><a href="https://github.com/Olessya-Kadzhu/rsschool-cv.git">Olessya-Kadzhu</a></h3></div>
+<div class="Education"><h2>Education:</h2><h3>JustCode from 12/05/2023 to 06/25/2024.</h3></div>
+<div class="Education"><h2>English:</h2><h3>Pre-Intermediate (A2)</h3></div>
+</main>
+<footer>
+    <div class="logo">  <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/cv/rs-school-logo.svg" alt="Rsschool_logo"></div>
+    <div class="year"><h2>2025</h2></div>
+    <nav>
+        <div class="GitHub"><a href="https://github.com/Olessya-Kadzhu/rsschool-cv">GitHub</a>
+            </div>
+        <div class="Rsschool_course"> <a href="https://rs.school/courses/javascript-preschool-ru">JS / Front-end Pre-school RU Course</a></div>
+    </nav>
+</footer>
+</div>
+</div>
+</body>
+</html>

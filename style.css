@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #181818;
+  font-weight: 400;
+
+}
+
+body {
+  background-color: #9ef20e;
+  display: flex;
+  justify-content: center;
+}
+
+.lines{
+ width: 80%; 
+}
+
+.center{background-color: #f7ff08;
+width: 90%;
+padding: 5.5%;
+margin-bottom: 15%;
+line-height: 1.2;
+}
+
+.photo_info{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-bottom: 5%;
+}
+.About, .Skills, .Code, .Work, .Education, .Education{
+    margin-bottom: 2%;
+}
+img{
+border-radius: 12%;
+max-width: 100%;
+    height: auto;
+}
+
+header{
+    display: flex;
+justify-content: center;
+margin-bottom: 9%;
+background-color: #dbf20e;
+padding: 2%;
+  font-size: 1.3vw; 
+}
+
+
+h1, h2 {color: #013e06;
+}
+
+h3, h4, Code{color: #016d0a;
+}
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: #dbf20e;
+padding: 2%;
+}
+
+.logo{
+width: 15%;
+height: 15%;
+}
+
+.year, nav{
+    font-size: 2vw;
+}
+
+nav{
+    font-size: 1.5vw;
+}
