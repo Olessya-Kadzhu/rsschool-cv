@@ -1,2 +1,2 @@
-# rsschool-cv
-JS / Front-end Pre-school RU Course Jun302025Sep072025
+https://github.com/Olessya-Kadzhu/rsschool-cv/tree/gh-pages
+https://github.com/Olessya-Kadzhu/rsschool-cv/tree/rsschool-cv-html
